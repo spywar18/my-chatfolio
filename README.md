@@ -142,10 +142,6 @@ Deploy your site easily with:
 vercel
 ```
 
-### ✅ [Netlify](https://netlify.com/)
-
-Connect your repo and deploy with one click.
-
 ---
 
 ## 🙌 Contribute / Need Help?
