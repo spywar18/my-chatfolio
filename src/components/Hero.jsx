@@ -12,6 +12,7 @@ const container = (delay) => ({
     },
 })
 
+
 const Hero = () => {
     return (
         <div className="border-b border-neutral-900 pb-8 lg:pb-12">
@@ -25,7 +26,7 @@ const Hero = () => {
                             whileInView="visible"
                             className="pb-6 text-4xl font-thin tracking-tight sm:text-5xl lg:pb-8 lg:mt-12 lg:text-7xl"
                         >
-                            John Doe
+                            Shikhar Singh
                         </motion.h1>
                         <motion.span
                             variants={container(0.5)}
@@ -33,7 +34,7 @@ const Hero = () => {
                             whileInView="visible"
                             className="bg-gradient-to-r from-cyan-400 via-slate-500 to-cyan-600 bg-clip-text text-2xl tracking-tight text-transparent sm:text-3xl"
                         >
-                            Senior Software Engineer
+                            Cloud, DevOps & AI | Full Stack Developer
                         </motion.span>
                         <motion.p
                             variants={container(1)}

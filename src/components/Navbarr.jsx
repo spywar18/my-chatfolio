@@ -22,7 +22,7 @@ const Navbarr = () => {
       {/* Social Media Icons */}
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
-          href="https://www.linkedin.com/in/john-doe/"
+          href="https://www.linkedin.com/in/shikharsingh0712/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -31,7 +31,7 @@ const Navbarr = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/john-doe"
+          href="https://github.com/spywar18/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
@@ -40,7 +40,7 @@ const Navbarr = () => {
           <FaGithub />
         </a>
         <a
-          href="https://x.com/JD/"
+          href="https://x.com/ultra_max_pro"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Twitter"
@@ -49,7 +49,7 @@ const Navbarr = () => {
           <FaSquareXTwitter />
         </a>
         <a
-          href="https://www.instagram.com/jd"
+          href="https://www.instagram.com/shikharsingh364/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"

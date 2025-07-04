@@ -5,61 +5,62 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I'm John Doe, a Senior Software Engineer passionate about building scalable, user-centric applications. With two years of hands-on experience, I specialize in full-stack development, working with technologies like React, Node.js, and cloud services.
+export const HERO_CONTENT = `I'm a passionate Full Stack Developer and community builder with hands-on experience in building production-grade web applications and AI-powered solutions. My expertise lies in JavaScript, TypeScript, React, Node.js, and cloud-native services like Firebase and Google Cloud.
 
 From crafting clean UI components to architecting backend systems, I take pride in delivering maintainable and performant solutions. I'm also enthusiastic about DevOps, automation, and integrating AI into real-world products.`;
 
-export const ABOUT_TEXT = `I am a detail-oriented software engineer with a focus on full-stack web development. My expertise includes modern frontend frameworks like React, backend services with Node.js and Express, and cloud platforms such as AWS and Firebase. Over the past two years, I've worked on projects ranging from healthcare analytics to task automation tools. I’m constantly evolving with the tech landscape, keeping up with DevOps, Docker, and serverless functions.`;
+export const ABOUT_TEXT = `I am a detail-oriented software engineer with a focus on full-stack web development. My expertise includes modern frontend frameworks like React, backend services with Node.js and Express, and cloud platforms such as GCP and Firebase.  I’m a full-stack developer who loves turning complex ideas into clean, cloud-powered code. I’m constantly evolving with the tech landscape, keeping up with DevOps, Docker, and serverless functions.`;
 
 export const EXPERIENCES = [
   {
-    year: "Jul 2023 - Present",
-    role: "Senior Software Engineer",
-    company: "TechNova Solutions",
-    description: `Leading the development of a cloud-native SaaS platform, enhancing scalability and security across services. Collaborated with cross-functional teams to optimize frontend performance and CI/CD pipelines. Integrated third-party APIs and used serverless architecture to reduce infrastructure overhead.`,
-    technologies: ["React", "Node.js", "AWS", "Docker", "TailwindCSS"],
+    year: "Sep 2023 – Dec 2023",
+    role: "Contributor (Cloud-Native Project)",
+    company: "Buildspace",
+    description: `Contributed to a community-driven open-source project focused on cloud-native tooling and backend services. Assisted in setting up serverless functions, refactoring API endpoints, and improving developer experience within the codebase.`,
+    technologies: ["Node.js", "Firebase", "Cloud Functions", "TypeScript", "GitHub"],
   },
   {
-    year: "Jul 2022 - Jul 2023",
-    role: "Software Engineer",
-    company: "ByteBrew Technologies",
-    description: `Built and maintained core features of a project management tool. Streamlined codebases using reusable React components and implemented RESTful APIs with Express.js. Participated in agile planning, code reviews, and mentored new joiners.`,
-    technologies: ["React", "Express.js", "MongoDB", "Git", "Figma"],
+    year: "Dec 2024",
+    role: "Finalist – Build & Blog Marathon",
+    company: "Code Vipasana x Google Cloud",
+    description: `Selected as a finalist in a competitive nationwide challenge to build, deploy, and document a production-grade GenAI application using Google Cloud services. Presented end-to-end solution including AI agent flows, cloud orchestration, and blogging pipelines.`,
+    technologies: ["GenAI", "Google Cloud", "Next.js", "Docker", "Firestore"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "TaskPilot - Productivity Suite",
+    title: "AI Portfolio Chatbot",
     image: project1,
     description:
-      "A productivity web app that helps users manage daily tasks and goals. Features include drag-and-drop boards, calendar sync, and real-time collaboration using WebSockets.",
-    technologies: ["React", "Node.js", "MongoDB", "TailwindCSS"],
+      "An interactive developer portfolio integrated with a Gemini-powered chatbot that answers questions about skills, projects, and experience using Firebase Functions and Firestore as knowledge base.",
+    technologies: ["React", "Tailwind CSS", "Firebase", "Gemini API"],
   },
   {
-    title: "MediMetrics - Health Analytics",
+    title: "BlogAI - YouTube to Blog Generator",
     image: project2,
     description:
-      "A platform for hospitals to track, analyze, and visualize patient vitals and diagnostics. Designed dashboards with D3.js and handled large datasets using AWS Lambda.",
-    technologies: ["AWS", "D3.js", "Node.js", "React"],
+      "A full-stack platform that converts YouTube videos into SEO-optimized blog posts using modular AI flows, a monorepo architecture, and a modern dashboard with user auth and content management.",
+    technologies: ["Next.js", "Node.js", "Genkit", "Prisma", "Docker", "Python"],
   },
   {
-    title: "DevBoard - Developer Portfolio Generator",
+    title: "Prescripto - Appointment Booking System",
     image: project3,
     description:
-      "Built a static site generator for developers to instantly deploy personal portfolios using markdown-based configuration and GitHub Actions.",
-    technologies: ["Next.js", "TailwindCSS", "GitHub Actions"],
+      "A role-based appointment management system for doctors, patients, and admins. Patients can book appointments, doctors manage schedules and earnings, while admins control platform operations.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Firebase Auth"],
   },
   {
-    title: "Image Classifier",
+    title: "Flavour Forage - AI Recipe Generator",
     image: project4,
     description:
-      "Trained a convolutional neural network to classify object categories in real-time using TensorFlow. Created an interface to upload and preview predictions.",
-    technologies: ["Python", "TensorFlow", "JavaScript"],
+      "A fun AI tool that creates custom recipes based on ingredients provided by the user. Powered by Gemini AI to generate unique and tasty cooking instructions in real time.",
+    technologies: ["React", "Firebase", "Gemini API"],
   },
 ];
 
+
 export const CONTACT = {
-  address: "San Francisco, CA",
-  email: "johndoe@example.com",
+  address: "Knowledge Park-2, Greater Noida, Delhi NCR",
+  email: "shikharsingh0712@gmail.com",
 };

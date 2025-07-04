@@ -5,7 +5,7 @@ const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
     {
-      text: "Hello! I'm John's Mate. I can answer questions about John's portfolio, provide career advice, or offer some motivation. How can I help you today?",
+      text: "Hello! I'm Shikhar's Mate. I can answer questions about Shikhar's portfolio, provide career advice, or offer some motivation. How can I help you today?",
       sender: "bot",
     },
   ]);
@@ -92,7 +92,7 @@ const Chatbot = () => {
         <div className="fixed bottom-24 right-5 w-96 h-[60vh] bg-black rounded-lg shadow-2xl flex flex-col transition-all duration-300 text-white">
           {/* Header */}
           <div className="bg-cyan-600 text-white p-4 rounded-t-lg flex justify-between items-center">
-            <h3 className="font-bold text-lg">Chat with JD's Mate</h3>
+            <h3 className="font-bold text-lg">Chat with Shikhar's Mate</h3>
             <button
               onClick={toggleChat}
               className="text-white hover:text-gray-300"

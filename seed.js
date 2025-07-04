@@ -19,23 +19,74 @@ const db = getFirestore(app);
 
 const portfolioData = {
   about: {
-    bio: "I'm a passionate Full Stack Developer with experience in creating dynamic and responsive web applications using React, Node.js, and modern JavaScript frameworks. I thrive on solving complex problems and building beautiful, intuitive user interfaces. My goal is to leverage technology to create meaningful and impactful digital experiences.",
-    name: "JD" // Replace with your name if different
+    bio: "I'm a passionate Full Stack Developer with experience in creating dynamic and scalable web applications using React, Node.js, Firebase, and modern JavaScript frameworks. I love solving real-world problems—from building AI-powered portfolios and SEO blog generators to healthcare dashboards and serverless utilities. I thrive in cloud-native environments and enjoy crafting intuitive, maintainable UIs backed by strong backend logic.",
+    name: "Shikhar"
   },
   projects: [
-    { id: "proj1", title: "Portfolio Website", description: "My personal portfolio built with React, Next.js, and Tailwind CSS, showcasing my skills and projects. Deployed on Vercel.", tech: ["React", "Next.js", "Tailwind CSS", "Vercel"], url: "https://si-portfolio.vercel.app/" },
-    { id: "proj2", title: "Another Cool Project", description: "Describe another one of your key projects here.", tech: ["Node.js", "Express", "MongoDB"], url: "https://example.com" }
-    // Add more projects
+    {
+      id: "proj1",
+      title: "AI Portfolio Chatbot",
+      description:
+        "My personal portfolio integrated with a Gemini-powered AI chatbot that answers questions about my skills, projects, and experience using Firebase Functions and Firestore as a knowledge base.",
+      tech: ["React", "Tailwind CSS", "Firebase", "Gemini API"],
+      url: "https://my-chatfolio-34fu63sdt-shikhar-s-projects.vercel.app/"
+    },
+    {
+      id: "proj2",
+      title: "BlogAI - YouTube to Blog Generator",
+      description:
+        "A full-stack platform that transforms YouTube videos into SEO-optimized blog posts using modular AI flows and monorepo architecture. Features include AI orchestration, user dashboard, and Dockerized services.",
+      tech: ["Next.js", "Node.js", "Genkit", "Prisma", "Docker", "Python"],
+      url: "https://github.com/spywar18/blog-generator"
+    },
+    {
+      id: "proj3",
+      title: "Prescripto - Doctor Appointment System",
+      description:
+        "Built a full-stack booking platform with multi-role login (Patient, Doctor, Admin). Enables appointment management, profile updates, and admin-side analytics and moderation.",
+      tech: ["React", "Node.js", "Express", "MongoDB", "Firebase Auth"],
+      url: "https://prescripto.vercel.app/"
+    },
+    {
+      id: "proj4",
+      title: "Flavour Forage - AI Recipe Generator",
+      description:
+        "Fun AI utility that turns your ingredients into creative recipes using Gemini API. Users input available items and get custom cooking steps in seconds.",
+      tech: ["React", "Firebase", "Gemini API"],
+      url: "https://github.com/spywar18/Flavour-forage"
+    },
+    {
+      id: "proj5",
+      title: "Firebase Contact App",
+      description:
+        "A basic CRUD contact manager built using React and Firebase. Demonstrates form handling, real-time database integration, and modular state management.",
+      tech: ["React", "Firebase", "JavaScript"],
+      url: "vite-contact-4c491.web.app/"
+    }
   ],
   experience: [
-    { id: "exp1", company: "Company A", role: "Frontend Developer", duration: "Jan 2023 - Present", responsibilities: "Developed and maintained user-facing features using React.js, collaborated with designers and backend developers, and optimized applications for speed and scalability." }
-    // Add more experience
+    {
+      id: "exp1",
+      company: "Buildspace (Community Contribution)",
+      role: "Contributor – Cloud Native Project",
+      duration: "Sep 2023 – Dec 2023",
+      responsibilities:
+        "Contributed to a collaborative cloud-native backend service. Assisted with serverless API integrations, improved Firebase functions, and enhanced project structure and dev experience.",
+    },
+    {
+      id: "exp2",
+      company: "Build & Blog Marathon (Code Vipasana x Google Cloud)",
+      role: "Finalist",
+      duration: "Dec 2024",
+      responsibilities:
+        "Finalist in a nationwide developer marathon. Built and deployed an AI + cloud-powered application using Google Cloud and documented the journey via blogs and open-source repositories.",
+    }
   ],
   skills: {
-    languages: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
+    languages: ["JavaScript", "TypeScript", "HTML5", "CSS3", "Python"],
     frameworks: ["React", "Next.js", "Node.js", "Express", "Tailwind CSS"],
     databases: ["MongoDB", "Firestore"],
-    tools: ["Git", "Webpack", "Docker", "Figma"]
+    tools: ["Git", "Docker", "Figma", "Firebase", "Prisma", "Genkit"]
   },
   personas: {
     student: {
@@ -44,13 +95,16 @@ const portfolioData = {
         "The journey of a thousand miles begins with a single step. You've already taken the first one by starting.",
         "Stuck on a problem? Take a break, walk away, and come back with a fresh perspective. You'll be surprised what you can solve."
       ],
-      guidance: "Focus on building strong fundamentals in HTML, CSS, and JavaScript. Then, pick a framework like React and build projects. Real-world projects are the best way to learn and showcase your skills."
+      guidance:
+        "Focus on building strong fundamentals in HTML, CSS, and JavaScript. Then, pick a framework like React and build projects. Real-world projects are the best way to learn and showcase your skills."
     },
     recruiter: {
-      pitch: "I specialize in building performant and scalable web applications with a focus on user experience. My expertise in the MERN stack and Next.js allows me to deliver end-to-end solutions. I'm actively looking for roles where I can contribute to impactful projects and continue to grow as a developer."
+      pitch:
+        "I specialize in building performant and scalable web applications with a focus on user experience. My expertise in the MERN stack, Next.js, Firebase, and Google Cloud allows me to deliver full-stack solutions, integrate AI, and deploy them with modern DevOps practices. I'm actively seeking roles where I can contribute to impactful products and continue growing as an engineer."
     }
   }
 };
+
 
 async function seedDatabase() {
   console.log('Starting to seed database...');
