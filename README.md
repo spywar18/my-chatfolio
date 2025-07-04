@@ -167,3 +167,8 @@ This project is open source and free to use under the [MIT License](LICENSE).
 ---
 
 ```
+
+---
+
+Let me know if you'd like to include Firebase/Gemini chatbot setup in the same README!
+```
